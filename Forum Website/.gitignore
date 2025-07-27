@@ -1,0 +1,54 @@
+##################################
+# 📁 DEPENDENCIES & PACKAGE MANAGERS
+##################################
+**/node_modules/
+.pnp.*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Yarn Plug'n'Play folders
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+##################################
+# 🔨 BUILD / DIST / OUTPUT FILES
+##################################
+# Frontend (Next.js)
+**/.next/
+**/out/
+**/.vercel/
+**/build
+
+# Backend (Node.js/Express)
+**/dist/
+**/build
+
+##################################
+# 🧪 TESTING / COVERAGE
+##################################
+**/coverage
+
+##################################
+# 🔒 ENVIRONMENT FILES
+##################################
+**/.env
+**/.env.*
+!**/.env.example  # Cho phép giữ mẫu cấu hình
+
+##################################
+# 🗃️ TYPESCRIPT
+##################################
+*.tsbuildinfo
+next-env.d.ts
+
+##################################
+# 🧹 MISCELLANEOUS
+##################################
+.DS_Store
+*.pem
+logs
